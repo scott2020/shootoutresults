@@ -26,10 +26,10 @@ Please choose one of the links below to see up to the minute Shootout results!
 <th width='8%'><p align='center'>No.</th><th width='50%'><p align='center'>Result</th>
 </tr>
 <tr>
-<th width='8%'><p align='center'>1</th><th width='50%'><a href="byclass.php">Top Scores grouped by class</a></th>
+<td width='8%'><p align='center'>1</td><td width='50%'><a href="byclass.php">Top Scores grouped by class</a></td>
 </tr>
 <tr>
-<th width='8%'><p align='center'>2</th><th width='50%'><a href="bycompetitor.php">Scores grouped by competitor name</a></th>
+<td width='8%'><p align='center'>2</td><td width='50%'><a href="bycompetitor.php">Scores grouped by competitor name</a></td>
 </tr>
 </table>
 </body>
