@@ -84,11 +84,11 @@ $timeformat = mysql_result($result2,$j,"timeformat");
 echo "<tr>";
 if ($owner_first=="")
 
- echo "<td width='13%'><p align='center'>$speed</td><td width='24%'>$driver_first $driver_last</td><td width='5%'><p align='center'>$boat_number</td><td width='20%'>$timeformat</td>";
+ echo "<td width='5%'><p align='center'>$speed</td><td width='54%'>$driver_first $driver_last</td><td width='5%'><p align='center'>$boat_number</td><td width='20%'>$timeformat</td>";
 
 else
 
-echo "<td width='13%'><p align='center'>$speed</td><td width='24%'>$driver_first $driver_last</td><td width='5%'><p align='center'>$boat_number</td><td width='20%'>$timeformat</td>";
+echo "<td width='5%'><p align='center'>$speed</td><td width='54%'>$driver_first $driver_last</td><td width='5%'><p align='center'>$boat_number</td><td width='20%'>$timeformat</td>";
 
 
 
