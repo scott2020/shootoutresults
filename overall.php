@@ -13,8 +13,8 @@
 <br>
 
 <?php
-include '../config.php';
-include('../register_globals.php');
+include('config.php');
+include('register_globals.php');
 register_globals();
 
 
