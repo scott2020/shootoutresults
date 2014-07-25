@@ -6,13 +6,6 @@
 <TITLE>Shootout All Scores by Class</TITLE>
 <link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
-<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
-<style>
-#container
-{
-width:100%;
-}
-</style>
 </HEAD>
 <p align="center"><img border="0" src="page_top.gif" width="610" height="88"></p>
 
@@ -69,8 +62,7 @@ echo "<marker id='$boat_class'><h2>Class:$boat_class</h2>";
    $num2 = 0;
    $num2 = mysql_numrows($result2);
 
-#echo "<table border='1' width='95%'>";
-echo "<div id='container'>";
+echo "<table border='1' width='95%'>";
 echo "<tr>";
 echo "<th width='13%'><p align='center'>Speed</th><th width='24%'><p align='center'>Driver</th><th width='5%'><p align='center'>Boat No</th><th width='20%'>Run Time</th>";
 echo "</tr>";
@@ -118,7 +110,6 @@ echo "</table>";
 
 #echo "</table>";
 
-echo "</div>";
 
 echo "<hr>";
 mysql_close($con);
