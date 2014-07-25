@@ -4,8 +4,8 @@
 <META HTTP-EQUIV="Content-Language" CONTENT="en-us">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
 <TITLE>Shootout All Scores by Class</TITLE>
-<link href="../tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
-<script type="text/javascript" src="../tablecloth/tablecloth.js"></script>
+<link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
 </HEAD>
 <p align="center"><img border="0" src="page_top.gif" width="610" height="88"></p>
 
@@ -15,8 +15,8 @@
 Current as of <?=date( "F d, Y H:i T.")?><br>
 
 <?php
-include '../config.php';
-include('../register_globals.php');
+include('config.php');
+include('register_globals.php');
 register_globals();
 
 
