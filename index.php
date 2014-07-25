@@ -2,7 +2,7 @@
 Shootout Results 2014
 <br>
 <?php
-include 'config.php';
+include('config.php');
 include('register_globals.php');
 register_globals();
 ?>
