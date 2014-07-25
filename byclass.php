@@ -118,7 +118,7 @@ echo "</table>";
 
 #echo "</table>";
 
-echi "</div>";
+echo "</div>";
 
 echo "<hr>";
 mysql_close($con);
