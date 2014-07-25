@@ -21,9 +21,14 @@ Welcome to the Lake Shootout 2014 LIVE results page!
 Please choose one of the links below to see up to the minute Shootout results!
 <br>
 <p>&nbsp;</p>
+<table border='1' width='75%'>
+<tr>
+<th width='8%'><p align='center'>No.</th><th width='15%'><p align='center'>Result</th>
+</tr>
+<th width='8%'><p align='center'>1</th><th width='15%'><a href="byclass.php">Top Scores grouped by class</a></th>
 <p><font face="Arial"><a href="byclass.php">Top Scores grouped by class</a></font></p>
 <p><font face="Arial"><a href="bycompetitor.php">All runs sorted by competitor</a></font></p>
-
+</table>
 </body>
 
 </html>
