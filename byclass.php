@@ -64,7 +64,7 @@ echo "<marker id='$boat_class'><h2>Class:$boat_class</h2>";
 
 echo "<table border='1' width='75%'>";
 echo "<tr>";
-echo "<th width='13%'><p align='center'>Speed</th><th width='24%'><p align='center'>Driver</th><th width='5%'><p align='center'>Boat No</th><th width='20%'>Run Time</th>";
+echo "<th width='8%'><p align='center'>Speed</th><th width='15%'><p align='center'>Driver</th><th width='5%'><p align='center'>Boat No</th><th width='10%'>Run Time</th>";
 echo "</tr>";
 # echo "</table>";
 
