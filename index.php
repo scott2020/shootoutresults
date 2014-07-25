@@ -6,6 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="description" content="Lake of the Ozarks Shootout Results">
 <meta name="keywords" content="shootout,results,loto,lake of the ozarks,boat racing">
+<link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
 <?php include 'config.php';?>
 <title>Reports - <?php echo $SITE_NAME;?></title>
 </head>
