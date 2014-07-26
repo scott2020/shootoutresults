@@ -37,8 +37,8 @@ The Lake of the Ozarks Shootout is being held on August 23 and 24, 2014.  This i
 <br>
 There are many events happening during Shootout weekend.  For the latest information, schedules, registration, and much more, visit:
 <br>
-<a href="http://www.lakeoftheozarksshootout.org">http://www.lakeoftheozarksshootout.org  The main information page for the Shootout!
-<br>
+<a href="http://www.lakeoftheozarksshootout.org">http://www.lakeoftheozarksshootout.org</a>  The main information page for the Shootout!
+<br><br>
 The Lake of the Ozarks Shootout is the largest unsanctioned boat race in the United States and has been voted as the number 1 boat race/shootout in the Country by the Powerboat Magazine Readers for the last two years.  It has also been listed by  Powerboat Magazine as one of the 8 "must see" boating events.  Official speeds at the Captain Ron's course have hit as high as 208 mph.  New radar guns in 2012 proved to be extremely accurate for the racers.
 <br>
 </body>
