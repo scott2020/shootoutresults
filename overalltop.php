@@ -3,11 +3,9 @@
 <HEAD>
 <META HTTP-EQUIV="Content-Language" CONTENT="en-us">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
-<META NAME="GENERATOR" CONTENT="Microsoft FrontPage 5.0">
-<META NAME="ProgId" CONTENT="FrontPage.Editor.Document">
 <TITLE>Shootout All Scores</TITLE>
-<link href="../tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
-<script type="text/javascript" src="../tablecloth/tablecloth.js"></script>
+<link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
 </HEAD>
 
 <h2> All Scores by Speed </h2>
@@ -15,8 +13,8 @@
 <br>
 
 <?php
-include '../config.php';
-include('../register_globals.php');
+include('config.php');
+include('register_globals.php');
 register_globals();
 
 

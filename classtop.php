@@ -3,7 +3,6 @@
 <HEAD>
 <META HTTP-EQUIV="Content-Language" CONTENT="en-us">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
-<META NAME="GENERATOR" CONTENT="Microsoft FrontPage 5.0">
 <META NAME="ProgId" CONTENT="FrontPage.Editor.Document">
 <TITLE>Shootout Class Winners</TITLE>
 <link href="../tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
@@ -18,8 +17,8 @@
 Current as of <?=date( "F d, Y  H:i T.")?><br>
 
 <?php
-include '../config.php';
-include('../register_globals.php');
+include('config.php');
+include('register_globals.php');
 register_globals();
 
 
@@ -142,7 +141,7 @@ mysql_close($con);
 
 ?>
 
-<A HREF="../index.php">Back to Main Menu</A>
+<A HREF="index.php">Back to Main Menu</A>
 
 
 </BODY>

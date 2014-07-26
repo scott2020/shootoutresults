@@ -4,7 +4,7 @@
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
 <link href="../tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="../tablecloth/tablecloth.js"></script>
-<TITLE>Shootout Scores</TITLE>
+<TITLE>Shootout Scores by category</TITLE>
 </HEAD>
 
 
@@ -13,8 +13,8 @@
 <?php
 
 echo "<h2> Overall Top Scores for Division $category </h2>";
-include '../config.php';
-include('../register_globals.php');
+include 'config.php';
+include('register_globals.php');
 register_globals();
 
 
