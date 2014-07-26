@@ -13,6 +13,7 @@
 </head>
 
 <body>
+<?php include 'b1.php';?>
 <br>
 Shootout 2014 Results
 <br>

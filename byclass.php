@@ -7,7 +7,6 @@
 <link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
 </HEAD>
-<p align="center"><img border="0" src="page_top.gif" width="320" height="88"></p>
 
 <h2> Scores By Class </h2>
 
@@ -15,6 +14,7 @@
 Current as of <?=date( "F d, Y H:i T.")?><br>
 
 <?php
+include('b1.php');
 include('config.php');
 include('register_globals.php');
 register_globals();
