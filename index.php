@@ -31,6 +31,13 @@ Please choose one of the links below to see up to the minute Shootout results!
 <tr>
 <td width='8%'><p align='center'>2</td><td width='50%'><a href="bycompetitor.php">Scores grouped by competitor name</a></td>
 </tr>
+<tr>
+<td width='8%'><p align='center'>3</td><td width='50%'><a href="overalltop.php">ALL Scores Fastest on top</a></td>
+</tr>
+<tr>
+<td width='8%'><p align='center'>4</td><td width='50%'><a href="classtop.php">Winners of Each Class</a></td>
+</tr>
+
 </table>
 <br>
 The Lake of the Ozarks Shootout is being held on August 23 and 24, 2014.  This is the 26th year the Shootout has been at the Lake of the Ozarks!
