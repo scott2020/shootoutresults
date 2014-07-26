@@ -8,14 +8,14 @@
 <script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
 </HEAD>
 <body>
-
+<?php include 'b1.php';?>
 <h2> Scores By Class </h2>
 
 <br>
 Current as of <?=date( "F d, Y H:i T.")?><br>
 
 <?php
-include('b1.php');
+
 include('config.php');
 include('register_globals.php');
 register_globals();
