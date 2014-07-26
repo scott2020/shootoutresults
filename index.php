@@ -16,7 +16,7 @@
 <br>
 Shootout 2014 Results
 <br>
-Welcome to the Lake Shootout 2014 LIVE results page!
+Welcome to the Lake of the Ozarks Shootout 2014 LIVE results page!
 <br>
 Please choose one of the links below to see up to the minute Shootout results!
 <br>
@@ -26,7 +26,7 @@ Please choose one of the links below to see up to the minute Shootout results!
 <th width='8%'><p align='center'>No.</th><th width='50%'><p align='center'>Result</th>
 </tr>
 <tr>
-<td width='8%'><p align='center'>1</td><td width='50%'><a href="byclass.php">Top Scores grouped by class</a></td>
+<td width='8%'><p align='center'>1</td><td width='50%'><a href="byclass.php">Scores grouped by class</a></td>
 </tr>
 <tr>
 <td width='8%'><p align='center'>2</td><td width='50%'><a href="bycompetitor.php">Scores grouped by competitor name</a></td>
@@ -34,12 +34,12 @@ Please choose one of the links below to see up to the minute Shootout results!
 </table>
 <br>
 The Lake of the Ozarks Shootout is being held on August 23 and 24, 2014.  This is the 26th year the Shootout has been at the Lake of the Ozarks!
-<br>
+<br><br>
 There are many events happening during Shootout weekend.  For the latest information, schedules, registration, and much more, visit:
 <br>
 <a href="http://www.lakeoftheozarksshootout.org">http://www.lakeoftheozarksshootout.org</a>  The main information page for the Shootout!
 <br><br>
-The Lake of the Ozarks Shootout is the largest unsanctioned boat race in the United States and has been voted as the number 1 boat race/shootout in the Country by the Powerboat Magazine Readers for the last two years.  It has also been listed by  Powerboat Magazine as one of the 8 "must see" boating events.  Official speeds at the Captain Ron's course have hit as high as 208 mph.  New radar guns in 2012 proved to be extremely accurate for the racers.
+The Lake of the Ozarks Shootout is the largest unsanctioned boat race in the United States and has been voted as the number 1 boat race/shootout in the Country by the Powerboat Magazine Readers for the last two years.  It has also been listed by  Powerboat Magazine as one of the 8 "must see" boating events.  New radar guns in 2012 proved to be extremely accurate for the racers.
 <br>
 </body>
 
