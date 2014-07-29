@@ -7,7 +7,9 @@
 <link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
 </HEAD>
-
+<body>
+<?php include 'b1.php';?>
+<br><br>
 <h2> All Scores by Speed </h2>
 
 <br>
@@ -75,7 +77,6 @@ mysql_close($con);
 ?>
 
 
-<BODY>
 
 </BODY>
 

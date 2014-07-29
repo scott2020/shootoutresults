@@ -6,13 +6,14 @@
 <script type="text/javascript" src="../tablecloth/tablecloth.js"></script>
 <TITLE>Shootout Scores by category</TITLE>
 </HEAD>
-
+<body>
 
 <br>
 
 <?php
 
 echo "<h2> Overall Top Scores for Division $category </h2>";
+include 'b1.php';
 include 'config.php';
 include('register_globals.php');
 register_globals();
@@ -83,7 +84,6 @@ mysql_close($con);
 ?>
 
 
-<BODY>
 
 </BODY>
 

@@ -7,7 +7,9 @@
 <META NAME="ProgId" CONTENT="FrontPage.Editor.Document">
 <TITLE>Shootout Top All Scores</TITLE>
 </HEAD>
-
+<body>
+<?php include 'b1.php';?>
+<br><br>
 <h2> Overall Top Scores </h2>
 
 <br>
@@ -73,7 +75,7 @@ mysql_close($con);
 ?>
 
 
-<BODY>
+
 
 </BODY>
 

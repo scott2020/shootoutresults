@@ -14,7 +14,7 @@
 
 <body>
 <?php include 'b1.php';?>
-<br>
+<br><br>
 Shootout 2014 Results
 <br>
 Welcome to the Lake of the Ozarks Shootout 2014 LIVE results page!

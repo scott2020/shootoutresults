@@ -9,8 +9,9 @@
 <link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
 </HEAD>
+<BODY>
 <p align="center"><img border="0" src="page_top.gif" width="320" height="88"></p>
-
+<?php include 'b1.php';?>
 <h2> Competitor Listing </h2>
 
 <br>
@@ -112,8 +113,6 @@ mysql_close($con);
 
 ?>
 
-
-<BODY>
 
 </BODY>
 
