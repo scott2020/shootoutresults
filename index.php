@@ -21,6 +21,11 @@ Welcome to the Lake of the Ozarks Shootout 2014 LIVE results page!
 <br>
 Please choose one of the links below to see up to the minute Shootout results!
 <br>
+<br>
+**** THESE RESULTS ARE SAMPLES FROM 2013 ****
+<br>
+*** THE DATA IS SAMPLE DATA ONLY.  THIS IS NOT ACTUAL OFFICIAL RESULTS from 2013 or 2014 ***
+<br>
 <p>&nbsp;</p>
 <table border='1' width='50%'>
 <tr>
