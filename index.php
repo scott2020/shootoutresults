@@ -13,7 +13,9 @@
 </head>
 
 <body>
+<center>
 <?php include 'b1.php';?>
+</center>
 <?php
 
 $con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
