@@ -21,6 +21,10 @@ mysql_select_db($DB_NAME,$con);
 # $con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
 # mysql_select_db("shootout",$con);
 #$result = mysql_query("SELECT competitors.boat_class,competitors.driver_first,competitors.driver_last,max(speeds.speed),date_format(speeds.timestamp, \'%m-%d-%y %h:%i:%s %p\' ) AS timeformat FROM competitors, speeds WHERE competitors.competitor_id = speeds.competitor_id GROUP BY competitors.competitor_id",$con);
+$sqlmaxspeed = ("SELECT * FROM speeds ORDER BY speed DESC LIMIT 1");
+
+
+
 $sql = 'SELECT competitors.boat_class, competitors.boat_number,competitors.driver_first, competitors.driver_last,speeds.speed, date_format( speeds.timestamp, \'%m-%d-%y %h:%i:%s %p\' ) AS timeformat'
 . ' FROM competitors, speeds'
 . ' WHERE competitors.competitor_id = speeds.competitor_id'
