@@ -87,19 +87,19 @@ Please choose one of the links below to see up to the minute Shootout results!
 <p>&nbsp;</p>
 <table border='1' width='100%'>
 <tr>
-<th width='8%'><p align='center'>No.</th><th width='90%'><p align='center'>Result</th>
+<th width='8%'><p align='center'>No.</th><th width='20%'><p align='center'>Result</th>
 </tr>
 <tr>
-<td width='8%'><p align='center'>1</td><td width='90%'><a href="byclass.php">Scores grouped by class</a></td>
+<td width='8%'><p align='center'>1</td><td width='20%'><a href="byclass.php">Scores grouped by class</a></td>
 </tr>
 <tr>
-<td width='8%'><p align='center'>2</td><td width='90%'><a href="bycompetitor.php">Scores grouped by competitor name</a></td>
+<td width='8%'><p align='center'>2</td><td width='20%'><a href="bycompetitor.php">Scores grouped by competitor name</a></td>
 </tr>
 <tr>
-<td width='8%'><p align='center'>3</td><td width='90%'><a href="overalltop.php">ALL Scores Fastest on top</a></td>
+<td width='8%'><p align='center'>3</td><td width='20%'><a href="overalltop.php">ALL Scores Fastest on top</a></td>
 </tr>
 <tr>
-<td width='8%'><p align='center'>4</td><td width='90%'><a href="classtop.php">Winners of Each Class</a></td>
+<td width='8%'><p align='center'>4</td><td width='20%'><a href="classtop.php">Winners of Each Class</a></td>
 </tr>
 
 </table>
