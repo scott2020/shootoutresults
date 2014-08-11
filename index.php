@@ -21,8 +21,15 @@ mysql_select_db($DB_NAME,$con);
 # $con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
 # mysql_select_db("shootout",$con);
 #$result = mysql_query("SELECT competitors.boat_class,competitors.driver_first,competitors.driver_last,max(speeds.speed),date_format(speeds.timestamp, \'%m-%d-%y %h:%i:%s %p\' ) AS timeformat FROM competitors, speeds WHERE competitors.competitor_id = speeds.competitor_id GROUP BY competitors.competitor_id",$con);
-$sqlmaxspeed = ("SELECT * FROM speeds ORDER BY speed DESC LIMIT 1");
 
+#$sqlmaxspeed = ("SELECT * FROM speeds ORDER BY speed DESC LIMIT 1");
+#$resultmaxspeed = mysql_query($sqlmaxspeed);
+#$maxspeednum = mysql_numrows($resultmaxspeed);
+
+#if ($maxspeednum > 0) {
+#$maxspeedcompid = mysql_result($resultmaxspeed,0,"competitor_id");
+#$maxrunid = mysql_result($resultmaxspeed,0,"run_id");
+#}
 
 
 $sql = 'SELECT competitors.boat_class, competitors.boat_number,competitors.driver_first, competitors.driver_last,speeds.speed, date_format( speeds.timestamp, \'%m-%d-%y %h:%i:%s %p\' ) AS timeformat'
@@ -42,12 +49,13 @@ $driver_first = mysql_result($result,$i,"competitors.driver_first");
 $driver_last = mysql_result($result,$i,"competitors.driver_last");
 $speed = mysql_result($result,$i,"speeds.speed");
 $timeformat = mysql_result($result,$i,"timeformat");
+}
 echo "<br>";
 echo "$driver_first $driver_last"; 
 #echo "<td><center>Class:</td><td>$boat_class-$boat_number</td><td> $speed MPH </td><td> $driver_first</td><td> $driver_last</td><td> Run Time: $timeformat </td> </center>";
 #++$i;
 #echo "</tr>";
-}
+#}
 #echo "</table>";
 #echo "<hr>";
 mysql_close($con);
