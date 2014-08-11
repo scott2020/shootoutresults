@@ -51,7 +51,15 @@ $speed = mysql_result($result,$i,"speeds.speed");
 $timeformat = mysql_result($result,$i,"timeformat");
 #}
 echo "<br>";
+echo "<center>";
+echo "Shootout 2014 Current TOP SPEED";
+echo "<br>";
 echo "$driver_first $driver_last"; 
+echo "<br>";
+echo "$boat_class - $boat_number";
+echo "<br>";
+echo "$speed";
+echo "<br>";
 #echo "<td><center>Class:</td><td>$boat_class-$boat_number</td><td> $speed MPH </td><td> $driver_first</td><td> $driver_last</td><td> Run Time: $timeformat </td> </center>";
 #++$i;
 #echo "</tr>";
