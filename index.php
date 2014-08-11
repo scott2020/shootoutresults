@@ -24,7 +24,7 @@ mysql_select_db($DB_NAME,$con);
 $sql = 'SELECT competitors.boat_class, competitors.boat_number,competitors.driver_first, competitors.driver_last,speeds.speed, date_format( speeds.timestamp, \'%m-%d-%y %h:%i:%s %p\' ) AS timeformat'
 . ' FROM competitors, speeds'
 . ' WHERE competitors.competitor_id = speeds.competitor_id'
-. ' ORDER BY competitors.boat_number';
+. ' ORDER BY speeds.speed DESC LIMIT 1';
 $result = mysql_query($sql);
 echo "<hr>";
 $num = 0;
@@ -38,7 +38,8 @@ $driver_first = mysql_result($result,$i,"competitors.driver_first");
 $driver_last = mysql_result($result,$i,"competitors.driver_last");
 $speed = mysql_result($result,$i,"speeds.speed");
 $timeformat = mysql_result($result,$i,"timeformat");
-#echo "<tr>";
+echo "<br>";
+echo "$driver_first $driver_last"; 
 #echo "<td><center>Class:</td><td>$boat_class-$boat_number</td><td> $speed MPH </td><td> $driver_first</td><td> $driver_last</td><td> Run Time: $timeformat </td> </center>";
 #++$i;
 #echo "</tr>";
