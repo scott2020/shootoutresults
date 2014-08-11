@@ -9,7 +9,7 @@
 <link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
 <?php include 'config.php';?>
-<title>Reports - <?php echo $SITE_NAME;?></title>
+<title>Results - <?php echo $SITE_NAME;?></title>
 </head>
 
 <body>
@@ -58,8 +58,9 @@ echo "$driver_first $driver_last";
 echo "<br>";
 echo "$boat_class - $boat_number";
 echo "<br>";
-echo "$speed";
+echo "$speed MPH";
 echo "<br>";
+echo "</center>";
 #echo "<td><center>Class:</td><td>$boat_class-$boat_number</td><td> $speed MPH </td><td> $driver_first</td><td> $driver_last</td><td> Run Time: $timeformat </td> </center>";
 #++$i;
 #echo "</tr>";
