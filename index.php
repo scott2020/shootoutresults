@@ -85,7 +85,7 @@ Please choose one of the links below to see up to the minute Shootout results!
 *** THE DATA IS SAMPLE DATA ONLY.  THIS IS NOT ACTUAL OFFICIAL RESULTS from 2013 or 2014 ***
 <br>
 <p>&nbsp;</p>
-<table border='1' width='50%'>
+<table border='1' width='100%'>
 <tr>
 <th width='8%'><p align='center'>No.</th><th width='50%'><p align='center'>Result</th>
 </tr>
