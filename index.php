@@ -72,7 +72,7 @@ echo "</center>";
 mysql_close($con);
 ?>
 
-<br><br>
+<br><br><hr>
 Shootout 2014 Results
 <br>
 Welcome to the Lake of the Ozarks Shootout 2014 LIVE results page!
@@ -103,7 +103,7 @@ Please choose one of the links below to see up to the minute Shootout results!
 </tr>
 
 </table>
-<br>
+<br><hr>
 The Lake of the Ozarks Shootout is being held on August 23 and 24, 2014.  This is the 26th year the Shootout has been at the Lake of the Ozarks!
 <br><br>
 There are many events happening during Shootout weekend.  For the latest information, schedules, registration, and much more, visit:
