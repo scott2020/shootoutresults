@@ -45,12 +45,12 @@ $num = mysql_numrows($result);
 #echo "<table border='1' cellpadding='0' cellspacing='0' style='border-collapse: collapse' bordercolor='#111111' width='97%' id='AutoNumber1'>";
 #$i = 0;
 #while ($i < $num) {
-$boat_class = mysql_result($result,$i,"competitors.boat_class");
-$boat_number = mysql_result($result,$i,"competitors.boat_number");
-$driver_first = mysql_result($result,$i,"competitors.driver_first");
-$driver_last = mysql_result($result,$i,"competitors.driver_last");
-$speed = mysql_result($result,$i,"speeds.speed");
-$timeformat = mysql_result($result,$i,"timeformat");
+$boat_class = mysql_result($result,0,"competitors.boat_class");
+$boat_number = mysql_result($result,0,"competitors.boat_number");
+$driver_first = mysql_result($result,0,"competitors.driver_first");
+$driver_last = mysql_result($result,0,"competitors.driver_last");
+$speed = mysql_result($result,0,"speeds.speed");
+$timeformat = mysql_result($result,0,"timeformat");
 #}
 echo "<br>";
 echo "<center>";
