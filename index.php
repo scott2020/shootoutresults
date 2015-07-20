@@ -54,7 +54,7 @@ $timeformat = mysql_result($result,0,"timeformat");
 #}
 echo "<br>";
 echo "<center>";
-echo "Shootout 2014 Current TOP SPEED";
+echo "Shootout 2015 Current TOP SPEED";
 echo "<br>";
 echo "$driver_first $driver_last"; 
 echo "<br>";
@@ -73,9 +73,12 @@ mysql_close($con);
 ?>
 
 <br><br><hr>
-Shootout 2014 Results
+Shootout 2015 Results
+<br><br>
+<b>This site will NOT BE LIVE with 2015 results until race day.  Any information you see on this page is not accurate or real, and is for testing purposes only.  Please stay tuned for LIVE results soon!  </b>
 <br>
-Welcome to the Lake of the Ozarks Shootout 2014 LIVE results page!
+<br>
+Welcome to the Lake of the Ozarks Shootout 2015 LIVE results page!
 <br>
 Please choose one of the links below to see up to the minute Shootout results!
 <br>
@@ -99,13 +102,15 @@ Please choose one of the links below to see up to the minute Shootout results!
 
 </table>
 <br><hr>
-The Lake of the Ozarks Shootout is being held on August 23 and 24, 2014.  This is the 26th year the Shootout has been at the Lake of the Ozarks!
+The Lake of the Ozarks Shootout is being held on August 29th and 30th, 2015.  
 <br><br>
 There are many events happening during Shootout weekend.  For the latest information, schedules, registration, and much more, visit:
 <br>
 <a href="http://www.lakeoftheozarksshootout.org">http://www.lakeoftheozarksshootout.org</a>  The main information page for the Shootout!
 <br><br>
 The Lake of the Ozarks Shootout is the largest unsanctioned boat race in the United States and has been voted as the number 1 boat race/shootout in the Country by the Powerboat Magazine Readers for the last two years.  It has also been listed by  Powerboat Magazine as one of the 8 "must see" boating events.  New radar guns in 2012 proved to be extremely accurate for the racers.
+<br><br>
+Lake of the Ozarks Shootout being held at Captain Ron's Bar & Grill August 22-30th, 2015 will bring the top racers and off shore racing power boats topping 244 MPH. The largest unsanctioned boat race in the midwest with over 100 racers and 100,000 spectators. Proceeds will benefit the Lake Area Rescue Teams,  and other charitable organizations! 
 <br>
 </body>
 
