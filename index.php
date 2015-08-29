@@ -75,9 +75,6 @@ mysql_close($con);
 <br><br><hr>
 Shootout 2015 Results
 <br><br>
-<b>This site will NOT BE LIVE with 2015 results until race day.  Any information you see on this page is not accurate or real, and is for testing purposes only.  Please stay tuned for LIVE results soon!  </b>
-<br>
-<br>
 Welcome to the Lake of the Ozarks Shootout 2015 LIVE results page!
 <br>
 Please choose one of the links below to see up to the minute Shootout results!
