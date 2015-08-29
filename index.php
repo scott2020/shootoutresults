@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Language" content="en-us">
 <meta name="GENERATOR" content="Notepad">
+<META HTTP-EQUIV="refresh" CONTENT="150">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="description" content="Lake of the Ozarks Shootout Results">
 <meta name="keywords" content="shootout,results,loto,lake of the ozarks,boat racing">
