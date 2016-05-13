@@ -19,7 +19,7 @@
 </center>
 <?php
 
-$con = mysql_connect("localhost", $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
+$con = mysql_connect($DB_HOST, $DB_USER, $DB_PASS)or die("Connect Error: ".mysql_error());
 mysql_select_db($DB_NAME,$con);
 # $con = mysql_connect("localhost", "shootout", "shootout")or die("Connect Error: ".mysql_error());
 # mysql_select_db("shootout",$con);
