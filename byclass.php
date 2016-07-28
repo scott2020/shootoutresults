@@ -4,8 +4,23 @@
 <META HTTP-EQUIV="Content-Language" CONTENT="en-us">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
 <TITLE>Shootout All Scores by Class</TITLE>
-<link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
-<script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
+<style style="text/css">
+  	.hoverTable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.hoverTable td{ 
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* Define the default color for all the table rows */
+	.hoverTable tr{
+		background: #b8d1f3;
+	}
+	/* Define the hover highlight color for the table row */
+    .hoverTable tr:hover {
+          background-color: #ffff99;
+    }
+</style>
 </HEAD>
 <body>
 <?php include 'b1.php';?>
@@ -63,7 +78,7 @@ echo "<marker id='$boat_class'><h2>Class:$boat_class</h2>";
    $num2 = 0;
    $num2 = mysql_numrows($result2);
 
-echo "<table border='1' width='75%'>";
+echo "<table class='hoverTable'>";
 echo "<tr>";
 echo "<th width='8%'><p align='center'>Speed</th><th width='15%'><p align='center'>Driver</th><th width='5%'><p align='center'>Boat No</th><th width='10%'>Run Time</th>";
 echo "</tr>";
