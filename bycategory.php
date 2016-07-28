@@ -14,7 +14,7 @@
 
 echo "<h2> Overall Top Scores for Division $category </h2>";
 include 'b1.php';
-include 'config.php';
+include '/config/resultsconfig.php';
 include('register_globals.php');
 register_globals();
 
