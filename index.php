@@ -76,7 +76,7 @@ mysql_close($con);
 <br><br><hr>
 Shootout 2016 Results
 <br><br>
-Welcome to the Lake of the Ozarks Shootout 2015 LIVE results page!
+Welcome to the Lake of the Ozarks Shootout 2016 LIVE results page!
 <br>
 Please choose one of the links below to see up to the minute Shootout results!
 <br>
