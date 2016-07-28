@@ -15,7 +15,7 @@
 <br>
 
 <?php
-include('config.php');
+include('/config/resultsconfig.php');
 include('register_globals.php');
 register_globals();
 
