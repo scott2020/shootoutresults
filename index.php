@@ -9,7 +9,7 @@
 <meta name="keywords" content="shootout,results,loto,lake of the ozarks,boat racing">
 <link href="/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="/tablecloth/tablecloth.js"></script>
-<?php include 'config.php';?>
+<?php include '/config/resultsconfig.php';?>
 <title>Results - <?php echo $SITE_NAME;?></title>
 </head>
 
@@ -55,7 +55,7 @@ $timeformat = mysql_result($result,0,"timeformat");
 #}
 echo "<br>";
 echo "<center>";
-echo "Shootout 2015 Current TOP SPEED";
+echo "Shootout 2016 Current TOP SPEED";
 echo "<br>";
 echo "$driver_first $driver_last"; 
 echo "<br>";
@@ -74,7 +74,7 @@ mysql_close($con);
 ?>
 
 <br><br><hr>
-Shootout 2015 Results
+Shootout 2016 Results
 <br><br>
 Welcome to the Lake of the Ozarks Shootout 2015 LIVE results page!
 <br>
@@ -100,7 +100,7 @@ Please choose one of the links below to see up to the minute Shootout results!
 
 </table>
 <br><hr>
-The Lake of the Ozarks Shootout is being held on August 29th and 30th, 2015.  
+The Lake of the Ozarks Shootout is being held on August 2016.  
 <br><br>
 There are many events happening during Shootout weekend.  For the latest information, schedules, registration, and much more, visit:
 <br>
@@ -108,7 +108,7 @@ There are many events happening during Shootout weekend.  For the latest informa
 <br><br>
 The Lake of the Ozarks Shootout is the largest unsanctioned boat race in the United States and has been voted as the number 1 boat race/shootout in the Country by the Powerboat Magazine Readers for the last two years.  It has also been listed by  Powerboat Magazine as one of the 8 "must see" boating events.  New radar guns in 2012 proved to be extremely accurate for the racers.
 <br><br>
-Lake of the Ozarks Shootout being held at Captain Ron's Bar & Grill August 22-30th, 2015 will bring the top racers and off shore racing power boats topping 244 MPH. The largest unsanctioned boat race in the midwest with over 100 racers and 100,000 spectators. Proceeds will benefit the Lake Area Rescue Teams,  and other charitable organizations! 
+Lake of the Ozarks Shootout being held at Captain Ron's Bar & Grill August 2016 will bring the top racers and off shore racing power boats topping 244 MPH. The largest unsanctioned boat race in the midwest with over 100 racers and 100,000 spectators. Proceeds will benefit the Lake Area Rescue Teams,  and other charitable organizations! 
 <br>
 </body>
 
